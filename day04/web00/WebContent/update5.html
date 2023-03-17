@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body { /* 컨트롤 + / - 자동주석, 태그선택! */
+	background: white;
+}
+
+button {
+	background: #2DB400;
+}
+
+.t1 { /* .은 클래스 선택!, 여러개선택!  */
+	width: 150px;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+	<h3>작품 수정 페이지</h3>
+	<hr>
+	<a href="webtoon.html">
+		<button>돌아가기</button>
+	</a>
+<form action="update5.jsp" method="get">
+<!-- http의 header(요청 주소 + get방식으로 넘어가는 데이터) -->
+<table border="1">
+			<tr>
+				<th class="t1">수정할 아이디 :</th>
+				<td><input name="id"></td>
+			</tr>
+			<tr>
+				<th class="t1">수정할 평점 :</th>
+				<td><input name="star"></td>
+			</tr>
+			<tr>
+				<td colspan="2" class="t1">
+					<button>작품 수정</button>
+				</td>
+			</tr>
+		</table>
+
+</form>
+</body>
+</html>

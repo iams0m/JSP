@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body { /* 컨트롤 + / - 자동주석, 태그 선택!  */
+	background: #91b9cc;
+}
+button {
+	background: #254d73;
+}
+.t1{ /* .은 클래스 선택! 여러개 선택할 때 클래스 사용  */
+	background : #89c2c9;
+	width: 150px;
+	text-align: center;
+}
+#b1{/* #은 아이디를 선택했다는 뜻! 특정한 것 한개만 선택할 때 사용*/
+	color: #c5d7e8;
+}
+</style>
+</head>
+<body>
+	<h3>상품정보 검색(상세) 페이지</h3>
+	<hr>
+	<a href="member.html">
+		<button id="b1">첫 페이지로</button>
+	</a>
+<hr>
+<!-- a태그는 무조건 get방식 요청 -->
+<a href="one3.jsp?id=113">
+	<button id="b1">113</button>
+</a>
+<a href="one3.jsp?id=114">
+	<button id="b1">114</button>
+</a>
+<a href="one3.jsp?id=115">
+	<button id="b1">115</button>
+</a>
+<hr>
+	<!-- form의 action은 무조건 jsp파일이 돼야 함 -->
+	<!-- html을 쓸 수 없음, action은 무조건 jsp(java) -->
+	<form action="one3.jsp" method="get"> 
+	<table border="1">
+		<tr>
+			<td class="t1">검색할 아이디</td>
+			<td>
+				<input name="id">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="t1">
+				<button id="b1">검색할 id 데이터 전송</button>
+			</td>
+		</tr>
+	</table>
+	<!-- 입력한 값들이 서버(톰킷)으로 전달될 때는 form태그 안에 있어야 함! -->
+	<!-- 보충내용 : <input name="data"> -->
+	</form>
+</body>
+</html>

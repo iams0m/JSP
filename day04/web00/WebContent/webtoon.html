@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body { /* 컨트롤 + / - 자동주석, 태그 선택!  */
+	background: white;
+}
+button {
+	background: #2DB400;
+}
+.t1{ /* .은 클래스 선택! 여러개 선택할 때 클래스 사용  */
+	width: 150px;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+	<h3>NAVER 웹툰</h3>
+	<hr>
+	<table border="1">
+		<tr>
+			<td class="t1">작품 등록</td>
+			<td><a href="insert5.html">
+					<button>바로가기</button>
+			</a></td>
+		</tr>
+		<!-- delete.html을 만드는데, id만 입력해서 전송 -->
+		<!-- delete.jsp를 만들어서 전송된 id 확인 -->
+		<tr>
+			<td class="t1">작품 삭제</td>
+			<td><a href="delete5.html">
+					<button>바로가기</button>
+			</a></td>
+		</tr>
+		<!-- update.html을 만드는데, id,tel만 입력해서 전송 -->
+		<!-- update.jsp를 만들어서 전송된 id,tel 확인 -->
+		<tr>
+			<td class="t1">작품 수정</td>
+			<td><a href="update5.html">
+					<button>바로가기</button>
+			</a></td>
+		</tr>
+		<tr>
+			<td class="t1">전체 작품 목록</td>
+			<td><a href="http://localhost:8888/web00/list5.jsp">
+					<button>바로가기</button>
+			</a></td>
+		</tr>
+	</table>
+</body>
+</html>
