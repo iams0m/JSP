@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body{background: #db6eac}
+#b1{background: #e6a8cb;}
+</style>
+<!-- <link rel="stylesheet" type="text/css" href="css/out.css"> -->
+<script type="text/javascript">
+	function idCheck() {
+		id = document.getElementById("user").value
+		resultTag = document.getElementById("result")
+		if (id.length >= 5) {
+			resultTag.innerHTML = '5글자 이상입니다. 유효합니다.'
+		}else {
+			resultTag.innerHTML = '5글자 미만입니다. 다시 입력해주세요.'
+		}
+	}
+	
+	function pwCheck() {
+		pw = document.getElementById("pw").value
+		pw2 = document.getElementById("pw2").value
+		resultTag = document.getElementById("result")
+		if (pw == pw2) {
+			//resultTag.innerHTML = '<b>일치 ! <img src=img/1.JPG width=500 height=400></b>'
+			location.href = "http://www.naver.com"
+		}else {
+			//resultTag.innerHTML = '<b>불일치 ! <img src=img/2.JPG width=500 height=400></b>'
+			location.href = "https://www.google.com"
+		}
+	}
+</script>
+</head>
+<body>
+<h1>자바 스크립트 테스트</h1>
+<hr>
+아이디 : <input id="user" value="test">
+<button id="b1" onclick="idCheck()">글자수 체크</button><br>
+
+패스워드 : <input id="pw" value="test"><br>
+패스워드2 : <input id="pw2" value="test">
+<button id="b1" onclick="pwCheck()">패스워드 동일</button><br>
+<hr>
+
+<div id="result"></div>
+</body>
+</html>

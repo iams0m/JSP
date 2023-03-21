@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body{background: #db6eac}
+#b1{background: #e6a8cb;}
+</style>
+<script type="text/javascript">
+	function me() {
+		
+		name = document.getElementById("name").value
+		company = document.getElementById("company").value
+		position = document.getElementById("position").value
+		gender = document.getElementById("gender").value
+		resultTag = document.getElementById("result")
+		//total = com + "회사에 " + level + "으로 있는 " + name + "입니다."
+		/* if(gender == '남자'){
+			total = total + "<img src=img/man.png>"
+		}else{
+			total = total + "<img src=img/woman.png>"
+		}
+		resultTag = document.getElementById("result")
+		resultTag.innerHTML = total */
+		if (gender == '남자') {
+			resultTag.innerHTML = company + '회사에 ' + position + '으로 있는 ' + name + '입니다. <img src=img/man.png width=300 height=500>'
+		}else {
+			resultTag.innerHTML = company + '회사에 ' + position + '으로 있는 ' + name + '입니다. <img src=img/woman.png width=300 height=500>'
+		}
+		
+	}
+	
+	function bag() {
+		thing1 = document.getElementById("thing1").value
+		resultTag = document.getElementById("result")
+		if (thing1 == "휴대폰") {
+			resultTag.innerHTML = '<img src=img/phone.png width=300 height=500>'
+		}else if (thing1 == "시계") {
+			resultTag.innerHTML = '<img src=img/watch.png width=300 height=500>'
+		}else {
+			resultTag.innerHTML = '<img src=img/2.JPG width=500 height=400>'
+		}
+	}
+	
+	function bag2() {
+		thing2 = document.getElementById("thing2").value
+		resultTag = document.getElementById("result")
+		if (thing2 == "시계") {
+			location.href = "https://www.vacheron-constantin.com"
+		}else if (thing2 == "가방") {
+			location.href = "https://www.celine.com"
+		}else {
+			resultTag.innerHTML = '<img src=img/1.JPG width=500 height=400>'
+		}
+	}
+	
+</script>
+</head>
+<body>
+<h1>자바 스크립트 정리문제1</h1>
+<hr>
+이름 : <input id="name" value="홍길동">
+회사명 : <input id="company" value="멀티">
+직책 : <input id="position" value="팀장">
+성별 : <input id="gender" value="남자">
+<button id="b1" onclick="me()">확인</button><br>
+<hr>
+가방 안에 들어있는 물건 중 제일 중요한 것 입력 : <input id="thing1" value="휴대폰">
+<button id="b1" onclick="bag()">확인</button><br>
+가방 안에 들어있는 물건 중 두번째 중요한 것 입력 : <input id="thing2" value="시계">
+<button id="b1" onclick="bag2()">확인</button><br>
+<hr>
+<div id="result"></div>
+</body>
+</html>

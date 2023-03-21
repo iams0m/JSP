@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+#b1{background: lightblue;}
+</style>
+<link rel="stylesheet" type="text/css" href="css/out.css">
+<script type="text/javascript">
+	function login() {
+		//아이디 입력값 가지고 오기
+		 id = document.getElementById("user").value
+		//비밀번호 입력값 가지고 오기
+		 pw = document.getElementById("pw").value
+		 
+		resultTag = document.getElementById("result")
+		//id가 result인 태그를 가지고 와주세요. <div id=result></div>
+		 if (id == 'root' && pw == '1234') {
+			//alert('로그인 성공')
+			//HTML 대문자로 적어주기
+			//resultTag.innerHTML = '<b>로그인 성공</b>'
+			resultTag.innerHTML = '<img src=img/1.JPG width=500 height=400>'
+		}else {
+			//alert('로그인 실패')
+			//resultTag.innerHTML = '<b>로그인 실패</b>'
+			resultTag.innerHTML = '<img src=img/2.JPG width=500 height=400>'
+		}
+	}
+	
+	function age() {
+		 year = document.getElementById("year").value //입력값은 무조건 String
+		 age = 2023 - parseInt(year)
+		 //alert('나이는 ' + age + '세 입니다.')
+		 resultTag = document.getElementById("result")
+		 resultTag.innerHTML = '나이는 ' + age + '세 입니다.'
+		 
+	}
+	
+	function rec() {
+		w = document.getElementById("w").value //입력값은 무조건 String
+		h = document.getElementById("h").value //입력값은 무조건 String
+		w2 = parseFloat(w)
+		h2 = parseFloat(h)
+		//alert('사각형의 면적은 ' + (w2 * h2) + '입니다.')
+		resultTag = document.getElementById("result")
+		resultTag.innerHTML = '사각형의 면적은 ' + (w2 * h2) + '입니다.'
+	}
+</script>
+</head>
+<body>
+아이디 입력 : <input id="user" value="root"><br>
+비밀번호 입력 : <input id="pw" value="1234"><br>
+<button id="b1" onclick="login()">로그인</button>
+<br>
+나이 계산(태어난 연도) : <input id="year"><br>
+<button id="b1" onclick="age()">나이 계산</button>
+<br>
+가로길이 : <input id="w"><br>
+세로길이 : <input id="h"><br>
+<button id="b1" onclick="rec()">사각형의 면적 구하기(실수 입력)</button>
+<hr>
+<!-- <div id="result" style="color: white; background: #1d5157; height: 50px; font-size: 30px;"></div> -->
+<div id="result"></div>
+</body>
+</html>
