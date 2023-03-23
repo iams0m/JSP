@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body{background: #db6eac}
+button{background: #e6a8cb;}
+</style>
+<script type="text/javascript" src="js/jquery-3.6.4.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$('#b1').click(function() {
+			alert('버튼 1 클릭')
+			t1 = $('#text1').text() //get의 의미
+			alert('가지고 온 값은 ' + t1)
+		})//b1
+		$('#b2').click(function() {
+			alert('버튼 2 클릭')
+			t2 = $('#text2').val()
+			alert('가지고 온 값은 ' + t2)
+		}) //b2
+		$('#b3').click(function() {
+			alert('버튼 3 클릭')
+			//set의 의미
+			$('#text3').text('내가 들어간다!')
+			$('#text4').val('나의 아이디는 hahaha')
+		})//b3
+	})
+</script>
+</head>
+<body>
+<h3 id="text1">1번 텍스트</h3>
+<input id="text2" value="2번 텍스트">
+<h3 id="text3">결과가 들어갈 곳</h3>
+<input id="text4"><br>
+<button id="b1">push me1</button>
+<button id="b2">push me2</button>
+<button id="b3">push me3</button>
+</body>
+</html>

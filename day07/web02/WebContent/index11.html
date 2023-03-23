@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body {
+	background: #cadceb;
+}
+
+button {
+	background: #6d9cbf;
+}
+</style>
+<script type="text/javascript" src="js/jquery-3.6.4.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$('#b1').click(function() {
+			i1 = $('#in1').val()
+			$('#result').append(i1 + "<br>")
+		})
+		$('#b2').click(function() {
+			$('#result').append("<img src=img/2.JPG width=200 height=150><br>")
+		})
+		$('#b3').click(function() {
+			i1 = $('#in1').val()
+			$('#result').append(i1 + "<br>")
+			$('#result').append("<img src=img/2.JPG width=200 height=150><br>")
+		})
+	})
+</script>
+</head>
+<body>
+	입력내용 :
+	<input id="in1" value="Hi!Welcome!Good Bye!">
+	<button id="b1">글자 추가</button>
+	<button id="b2">이미지 추가</button>
+	<button id="b3">댓글 추가</button>
+	<div id="result"></div>
+</body>
+</html>

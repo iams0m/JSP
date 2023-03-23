@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<script type="text/javascript" src="js/jquery-3.6.4.js"></script>
+<script type="text/javascript">
+	//시작하자 마자 통신해보자.!!
+	$(function() {
+		$.ajax({
+			url : "index.html", 
+			success : function() {
+				alert("성공!")
+			} //success
+		}) //ajax
+		
+		$.ajax({
+			url : "index2.html", 
+			success : function() {
+				alert("성공2!")
+			}//success
+		})//ajax
+	})//$
+</script>
+</head>
+<body>
+
+</body>
+</html>

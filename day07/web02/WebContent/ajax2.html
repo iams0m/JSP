@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body{background: #7c9c8a;}
+button{background: #537863;}
+</style>
+<script type="text/javascript" src="js/jquery-3.6.4.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$('#b1').click(function() { //b1을 클릭했을 때 function 실행
+			//b1을 클릭했을 때 처리할 내용
+			//ok.html을 호출해서 결과를 받아오려고 함
+			$.ajax({
+				url : "ok.html",
+				success : function(x) {
+					//x에 ok.html의 호출 결과가 저장됨
+					alert(x)
+					$('#result').append(x + "<br>")
+				} // success
+			}) // ajax
+		}) // b1
+		
+		$('#b2').click(function() { //b2을 클릭했을 때 function 실행
+			//b2을 클릭했을 때 처리할 내용
+			//tour.html을 호출해서 결과를 받아오려고 함
+			$.ajax({
+				url : "tour.html",
+				success : function(x) {
+					//x에 tour.html의 호출 결과가 저장됨
+					alert(x)
+					$('#result').append(x + "<br>")
+				} // success
+			}) // ajax
+		}) // b2
+		
+		$('#b3').click(function() { //b3을 클릭했을 때 function 실행
+			//b3을 클릭했을 때 처리할 내용
+			//weather.html을 호출해서 결과를 받아오려고 함
+			$.ajax({
+				url : "weather.html",
+				success : function(x) {
+					//x에 weather.html의 호출 결과가 저장됨
+					alert(x)
+					$('#result').append(x + "<br>")
+				} // success
+			}) // ajax
+		}) // b3
+		
+	}) // $
+</script>
+</head>
+<body>
+<button id="b1">ok</button>
+<button id="b2">tour</button>
+<button id="b3">weather</button>
+<hr>
+<div id="result"></div>
+</body>
+</html>
