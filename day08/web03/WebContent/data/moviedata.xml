@@ -1,0 +1,604 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<moviedata>
+	<record>
+		<id>1</id>
+		<title>50/50</title>
+		<genres>Comedy|Drama</genres>
+		<date>2023-02-07</date>
+	</record>
+	<record>
+		<id>2</id>
+		<title>Leaving Las Vegas</title>
+		<genres>Drama|Romance</genres>
+		<date>2023-03-23</date>
+	</record>
+	<record>
+		<id>3</id>
+		<title>Balto: Wolf Quest </title>
+		<genres>Adventure|Animation|Children</genres>
+		<date>2022-04-18</date>
+	</record>
+	<record>
+		<id>4</id>
+		<title>Ballad of a Soldier (Ballada o soldate)</title>
+		<genres>Drama|Romance|War</genres>
+		<date>2022-04-24</date>
+	</record>
+	<record>
+		<id>5</id>
+		<title>Nowhere to Run</title>
+		<genres>Action|Romance</genres>
+		<date>2022-12-12</date>
+	</record>
+	<record>
+		<id>6</id>
+		<title>Team America: World Police</title>
+		<genres>Action|Adventure|Animation|Comedy</genres>
+		<date>2023-01-04</date>
+	</record>
+	<record>
+		<id>7</id>
+		<title>The Mayor of Casterbridge</title>
+		<genres>Drama</genres>
+		<date>2022-03-24</date>
+	</record>
+	<record>
+		<id>8</id>
+		<title>My Sassy Girl</title>
+		<genres>Comedy|Drama|Romance</genres>
+		<date>2022-10-16</date>
+	</record>
+	<record>
+		<id>9</id>
+		<title>Diamond Arm, The (Brilliantovaya ruka)</title>
+		<genres>Action|Adventure|Comedy|Crime|Thriller</genres>
+		<date>2022-09-10</date>
+	</record>
+	<record>
+		<id>10</id>
+		<title>V: The Final Battle</title>
+		<genres>Action|Sci-Fi</genres>
+		<date>2022-05-22</date>
+	</record>
+	<record>
+		<id>11</id>
+		<title>Nelly &amp; Monsieur Arnaud</title>
+		<genres>Drama</genres>
+		<date>2023-03-14</date>
+	</record>
+	<record>
+		<id>12</id>
+		<title>Cloud-Capped Star, The (Meghe Dhaka Tara)</title>
+		<genres>Drama</genres>
+		<date>2022-04-24</date>
+	</record>
+	<record>
+		<id>13</id>
+		<title>Star for Two, A</title>
+		<genres>Drama|Romance</genres>
+		<date>2022-12-30</date>
+	</record>
+	<record>
+		<id>14</id>
+		<title>Sharknado</title>
+		<genres>Sci-Fi</genres>
+		<date>2022-10-28</date>
+	</record>
+	<record>
+		<id>15</id>
+		<title>Man of Aran</title>
+		<genres>Documentary</genres>
+		<date>2022-09-14</date>
+	</record>
+	<record>
+		<id>16</id>
+		<title>Tic Code, The</title>
+		<genres>Drama</genres>
+		<date>2022-10-18</date>
+	</record>
+	<record>
+		<id>17</id>
+		<title>Jerry Seinfeld: 'I'm Telling You for the Last Time'</title>
+		<genres>Comedy|Documentary</genres>
+		<date>2022-08-04</date>
+	</record>
+	<record>
+		<id>18</id>
+		<title>Bloody Territories (Kôiki bôryoku: ryuuketsu no shima)</title>
+		<genres>Action|Crime</genres>
+		<date>2023-02-17</date>
+	</record>
+	<record>
+		<id>19</id>
+		<title>Poseidon Adventure, The</title>
+		<genres>Action|Adventure|Drama</genres>
+		<date>2022-11-05</date>
+	</record>
+	<record>
+		<id>20</id>
+		<title>Jack the Giant Slayer</title>
+		<genres>Adventure|Fantasy|IMAX</genres>
+		<date>2022-12-07</date>
+	</record>
+	<record>
+		<id>21</id>
+		<title>Where Is the Friend's Home? (Where Is My Friend's House?)
+			(Khane-ye doust kodjast?)</title>
+		<genres>Drama</genres>
+		<date>2023-03-12</date>
+	</record>
+	<record>
+		<id>22</id>
+		<title>Bikini Summer</title>
+		<genres>Comedy</genres>
+		<date>2022-05-25</date>
+	</record>
+	<record>
+		<id>23</id>
+		<title>Stacy's Knights</title>
+		<genres>Drama</genres>
+		<date>2023-03-02</date>
+	</record>
+	<record>
+		<id>24</id>
+		<title>Merry Widow, The</title>
+		<genres>Drama|Romance</genres>
+		<date>2023-01-26</date>
+	</record>
+	<record>
+		<id>25</id>
+		<title>North &amp; South</title>
+		<genres>Drama|Romance</genres>
+		<date>2022-05-09</date>
+	</record>
+	<record>
+		<id>26</id>
+		<title>Scary Movie</title>
+		<genres>Comedy|Horror</genres>
+		<date>2022-05-23</date>
+	</record>
+	<record>
+		<id>27</id>
+		<title>Jiro Dreams of Sushi</title>
+		<genres>Documentary</genres>
+		<date>2022-09-30</date>
+	</record>
+	<record>
+		<id>28</id>
+		<title>Play Motel</title>
+		<genres>Crime|Horror|Thriller</genres>
+		<date>2022-08-25</date>
+	</record>
+	<record>
+		<id>29</id>
+		<title>Ghost from the Machine (Phasma Ex Machina)</title>
+		<genres>Sci-Fi</genres>
+		<date>2023-03-01</date>
+	</record>
+	<record>
+		<id>30</id>
+		<title>Sorority Boys</title>
+		<genres>Comedy</genres>
+		<date>2022-08-09</date>
+	</record>
+	<record>
+		<id>31</id>
+		<title>Street Fighter, The (Gekitotsu! Satsujin ken)</title>
+		<genres>Action</genres>
+		<date>2022-11-03</date>
+	</record>
+	<record>
+		<id>32</id>
+		<title>When Time Ran Out... (Day the World Ended, The)</title>
+		<genres>Action|Adventure</genres>
+		<date>2022-07-04</date>
+	</record>
+	<record>
+		<id>33</id>
+		<title>Sound of Thunder, A</title>
+		<genres>Action|Adventure|Drama|Sci-Fi|Thriller</genres>
+		<date>2022-07-10</date>
+	</record>
+	<record>
+		<id>34</id>
+		<title>Liquidator, The</title>
+		<genres>Action|Thriller</genres>
+		<date>2022-07-03</date>
+	</record>
+	<record>
+		<id>35</id>
+		<title>Speak</title>
+		<genres>Drama</genres>
+		<date>2022-11-05</date>
+	</record>
+	<record>
+		<id>36</id>
+		<title>Straight from the Heart</title>
+		<genres>Action|Adventure|Drama|Romance|Western</genres>
+		<date>2022-09-02</date>
+	</record>
+	<record>
+		<id>37</id>
+		<title>Garage Sale Mystery</title>
+		<genres>Drama</genres>
+		<date>2022-10-15</date>
+	</record>
+	<record>
+		<id>38</id>
+		<title>Carnegie Hall</title>
+		<genres>Drama</genres>
+		<date>2022-06-14</date>
+	</record>
+	<record>
+		<id>39</id>
+		<title>Rabbit Without Ears (Keinohrhasen)</title>
+		<genres>Comedy|Romance</genres>
+		<date>2022-07-30</date>
+	</record>
+	<record>
+		<id>40</id>
+		<title>Looking for Richard</title>
+		<genres>Documentary|Drama</genres>
+		<date>2022-05-27</date>
+	</record>
+	<record>
+		<id>41</id>
+		<title>Paris Was a Woman</title>
+		<genres>Documentary</genres>
+		<date>2022-05-04</date>
+	</record>
+	<record>
+		<id>42</id>
+		<title>Now You See Him, Now You Don't</title>
+		<genres>Comedy|Sci-Fi</genres>
+		<date>2023-02-05</date>
+	</record>
+	<record>
+		<id>43</id>
+		<title>Password: Uccidete agente Gordon</title>
+		<genres>(no genres listed)</genres>
+		<date>2022-08-21</date>
+	</record>
+	<record>
+		<id>44</id>
+		<title>Ballou</title>
+		<genres>Documentary|Musical</genres>
+		<date>2023-02-25</date>
+	</record>
+	<record>
+		<id>45</id>
+		<title>Only the Strong</title>
+		<genres>Action</genres>
+		<date>2023-03-20</date>
+	</record>
+	<record>
+		<id>46</id>
+		<title>Firecreek</title>
+		<genres>Western</genres>
+		<date>2022-04-03</date>
+	</record>
+	<record>
+		<id>47</id>
+		<title>Roadie</title>
+		<genres>Comedy|Drama</genres>
+		<date>2022-11-03</date>
+	</record>
+	<record>
+		<id>48</id>
+		<title>God's Country</title>
+		<genres>Documentary</genres>
+		<date>2023-01-14</date>
+	</record>
+	<record>
+		<id>49</id>
+		<title>Oh Boy (A Coffee in Berlin)</title>
+		<genres>Comedy|Drama</genres>
+		<date>2022-07-04</date>
+	</record>
+	<record>
+		<id>50</id>
+		<title>Touch of Pink</title>
+		<genres>Comedy|Drama|Romance</genres>
+		<date>2022-10-10</date>
+	</record>
+	<record>
+		<id>51</id>
+		<title>Eye In The Sky (Gun chung)</title>
+		<genres>Crime|Thriller</genres>
+		<date>2022-07-14</date>
+	</record>
+	<record>
+		<id>52</id>
+		<title>Abbott and Costello Meet Dr. Jekyll and Mr. Hyde</title>
+		<genres>Comedy|Horror|Sci-Fi</genres>
+		<date>2022-09-02</date>
+	</record>
+	<record>
+		<id>53</id>
+		<title>Top Gun</title>
+		<genres>Action|Romance</genres>
+		<date>2022-04-08</date>
+	</record>
+	<record>
+		<id>54</id>
+		<title>Floating Clouds (Ukigumo)</title>
+		<genres>Drama|Romance</genres>
+		<date>2022-09-15</date>
+	</record>
+	<record>
+		<id>55</id>
+		<title>Star Trek IV: The Voyage Home</title>
+		<genres>Adventure|Comedy|Sci-Fi</genres>
+		<date>2022-07-14</date>
+	</record>
+	<record>
+		<id>56</id>
+		<title>Living Free</title>
+		<genres>Adventure|Children|Drama</genres>
+		<date>2022-12-13</date>
+	</record>
+	<record>
+		<id>57</id>
+		<title>Supermensch: The Legend of Shep Gordon</title>
+		<genres>Documentary</genres>
+		<date>2022-04-26</date>
+	</record>
+	<record>
+		<id>58</id>
+		<title>Sheep Has Five Legs, The (Le mouton à cinq pattes)</title>
+		<genres>Comedy</genres>
+		<date>2023-03-23</date>
+	</record>
+	<record>
+		<id>59</id>
+		<title>Messenger: The Story of Joan of Arc, The</title>
+		<genres>Drama|War</genres>
+		<date>2022-04-20</date>
+	</record>
+	<record>
+		<id>60</id>
+		<title>Police</title>
+		<genres>Comedy</genres>
+		<date>2023-01-07</date>
+	</record>
+	<record>
+		<id>61</id>
+		<title>Brink of Life (Nära livet)</title>
+		<genres>Drama</genres>
+		<date>2023-01-25</date>
+	</record>
+	<record>
+		<id>62</id>
+		<title>Palindromes</title>
+		<genres>Adventure|Comedy|Drama</genres>
+		<date>2023-01-01</date>
+	</record>
+	<record>
+		<id>63</id>
+		<title>Good Men, Good Women (Hao nan hao nu)</title>
+		<genres>Drama|Romance</genres>
+		<date>2022-10-05</date>
+	</record>
+	<record>
+		<id>64</id>
+		<title>One for the Money</title>
+		<genres>Action|Comedy|Crime</genres>
+		<date>2022-06-07</date>
+	</record>
+	<record>
+		<id>65</id>
+		<title>Pete 'n' Tillie</title>
+		<genres>Comedy|Drama</genres>
+		<date>2023-01-30</date>
+	</record>
+	<record>
+		<id>66</id>
+		<title>Tomie: Unlimited</title>
+		<genres>Horror</genres>
+		<date>2022-05-03</date>
+	</record>
+	<record>
+		<id>67</id>
+		<title>Last Emperor, The</title>
+		<genres>Drama</genres>
+		<date>2022-08-04</date>
+	</record>
+	<record>
+		<id>68</id>
+		<title>Possessed (Besat)</title>
+		<genres>Action|Crime|Drama|Horror|Thriller</genres>
+		<date>2023-01-22</date>
+	</record>
+	<record>
+		<id>69</id>
+		<title>Easy Wheels</title>
+		<genres>Action|Comedy</genres>
+		<date>2023-01-12</date>
+	</record>
+	<record>
+		<id>70</id>
+		<title>Wanted: Dead or Alive</title>
+		<genres>Action</genres>
+		<date>2022-12-25</date>
+	</record>
+	<record>
+		<id>71</id>
+		<title>4 Little Girls</title>
+		<genres>Documentary</genres>
+		<date>2022-07-13</date>
+	</record>
+	<record>
+		<id>72</id>
+		<title>Belle comme la femme d'un autre</title>
+		<genres>Comedy</genres>
+		<date>2023-01-02</date>
+	</record>
+	<record>
+		<id>73</id>
+		<title>P2</title>
+		<genres>Horror|Thriller</genres>
+		<date>2023-02-19</date>
+	</record>
+	<record>
+		<id>74</id>
+		<title>Bye Bye, Love</title>
+		<genres>Comedy</genres>
+		<date>2022-06-06</date>
+	</record>
+	<record>
+		<id>75</id>
+		<title>Ricky Gervais Live: Animals</title>
+		<genres>Comedy</genres>
+		<date>2022-10-07</date>
+	</record>
+	<record>
+		<id>76</id>
+		<title>Skyscraper (Skyskraber)</title>
+		<genres>Comedy|Drama</genres>
+		<date>2022-09-03</date>
+	</record>
+	<record>
+		<id>77</id>
+		<title>Moment After 2, The: The Awakening</title>
+		<genres>Drama|Sci-Fi|Thriller</genres>
+		<date>2022-07-14</date>
+	</record>
+	<record>
+		<id>78</id>
+		<title>Light at the Edge of the World, The</title>
+		<genres>Adventure</genres>
+		<date>2022-07-21</date>
+	</record>
+	<record>
+		<id>79</id>
+		<title>Mudlark, The</title>
+		<genres>Drama</genres>
+		<date>2022-06-06</date>
+	</record>
+	<record>
+		<id>80</id>
+		<title>For Ellen</title>
+		<genres>Drama</genres>
+		<date>2022-04-29</date>
+	</record>
+	<record>
+		<id>81</id>
+		<title>Crossing Guard, The</title>
+		<genres>Action|Crime|Drama|Thriller</genres>
+		<date>2022-03-28</date>
+	</record>
+	<record>
+		<id>82</id>
+		<title>No Good Deed</title>
+		<genres>Thriller</genres>
+		<date>2022-05-11</date>
+	</record>
+	<record>
+		<id>83</id>
+		<title>Den enskilde medborgaren</title>
+		<genres>Comedy</genres>
+		<date>2022-11-21</date>
+	</record>
+	<record>
+		<id>84</id>
+		<title>You Belong to Me</title>
+		<genres>Comedy|Romance</genres>
+		<date>2022-05-11</date>
+	</record>
+	<record>
+		<id>85</id>
+		<title>Trade</title>
+		<genres>Crime|Drama|Thriller</genres>
+		<date>2022-07-06</date>
+	</record>
+	<record>
+		<id>86</id>
+		<title>Wonderful Days (a.k.a. Sky Blue)</title>
+		<genres>Animation|Sci-Fi</genres>
+		<date>2023-02-19</date>
+	</record>
+	<record>
+		<id>87</id>
+		<title>Three Musketeers, The</title>
+		<genres>Action|Adventure|Thriller</genres>
+		<date>2022-06-23</date>
+	</record>
+	<record>
+		<id>88</id>
+		<title>Express, The</title>
+		<genres>Drama</genres>
+		<date>2022-08-10</date>
+	</record>
+	<record>
+		<id>89</id>
+		<title>Sada</title>
+		<genres>Drama</genres>
+		<date>2022-10-28</date>
+	</record>
+	<record>
+		<id>90</id>
+		<title>Blind Alley</title>
+		<genres>Crime</genres>
+		<date>2022-07-05</date>
+	</record>
+	<record>
+		<id>91</id>
+		<title>Lacemaker, The (Dentellière, La)</title>
+		<genres>Drama|Romance</genres>
+		<date>2023-03-05</date>
+	</record>
+	<record>
+		<id>92</id>
+		<title>Anne of Green Gables</title>
+		<genres>Children|Drama</genres>
+		<date>2022-09-14</date>
+	</record>
+	<record>
+		<id>93</id>
+		<title>Pretty Persuasion</title>
+		<genres>Comedy|Drama</genres>
+		<date>2022-05-22</date>
+	</record>
+	<record>
+		<id>94</id>
+		<title>Independencia</title>
+		<genres>Drama</genres>
+		<date>2023-03-18</date>
+	</record>
+	<record>
+		<id>95</id>
+		<title>Anna Karenina</title>
+		<genres>Drama</genres>
+		<date>2022-07-03</date>
+	</record>
+	<record>
+		<id>96</id>
+		<title>Everlasting Moments (Maria Larssons eviga ögonblick)</title>
+		<genres>Drama</genres>
+		<date>2022-12-26</date>
+	</record>
+	<record>
+		<id>97</id>
+		<title>They Gave Him A Gun</title>
+		<genres>Crime|Drama</genres>
+		<date>2022-08-19</date>
+	</record>
+	<record>
+		<id>98</id>
+		<title>12 Angry Men</title>
+		<genres>Drama</genres>
+		<date>2022-04-21</date>
+	</record>
+	<record>
+		<id>99</id>
+		<title>Man Who Loved Women, The</title>
+		<genres>Comedy</genres>
+		<date>2023-03-14</date>
+	</record>
+	<record>
+		<id>100</id>
+		<title>Where a Good Man Goes (Joi gin a long)</title>
+		<genres>Action|Drama|Thriller</genres>
+		<date>2022-08-12</date>
+	</record>
+</moviedata>

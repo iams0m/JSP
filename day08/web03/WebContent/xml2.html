@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+	rel="stylesheet">
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<style type="text/css">
+body {
+	background: #97dea5;
+}
+</style>
+<script type="text/javascript" src="js/jquery-3.6.4.js"></script>
+<script type="text/javascript">
+$(function() { 
+	$('#b1').click(function() {
+		$.ajax({
+			url: "data/moviedata.xml",
+			success: function(doc) {
+				alert("xml요청 성공>> " + doc)
+				list = $(doc).find('record') // find의 결과는 여러개(배열)
+				alert(list.length)
+				for(i = 0; i < list.length; i++){
+					id = $(list[i]).find('id').text()
+					title = $(list[i]).find('title').text()
+					genres = $(list[i]).find('genres').text()
+					date = $(list[i]).find('date').text()
+					$('#result').append(id+ ", " + title + ", " + genres + ", " + date + "<br>")
+					
+					$.ajax({
+					url: "mock2.jsp",
+					data: {
+						id : id,
+						title : title,
+						genres : genres,
+						date : date
+						},
+					success: function() {
+						console.log('성공!')
+						} //success
+					}) //ajax
+				} //for
+			} //success
+		}) //ajax
+	}) //b1
+}) //$
+</script>
+</head>
+<body>
+<button id="b1" type="button" class="btn btn-dark">XML받아오기-1</button>
+<hr>
+<div id="result"></div>
+</body>
+</html>
